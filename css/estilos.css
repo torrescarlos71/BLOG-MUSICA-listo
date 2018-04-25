@@ -1,0 +1,54 @@
+body {
+  background-color: #5DADE2;
+}
+
+.navegador {
+  background: #185C9A;
+  border: none;
+}
+
+#fotos{
+  height: 150px;
+  width: 150px;
+  padding: 10px;
+}
+#fotos1 {
+  height: 150px;
+  width: 150px;
+  padding: 10px;
+  border-radius: 60px 60px 60px 60px;
+-moz-border-radius: 60px 60px 60px 60px;
+-webkit-border-radius: 60px 60px 60px 60px;
+border: 4px solid #1ba9b3;
+}
+
+.container-fluid {
+  margin-top: 64px;
+}
+
+.barra-navegar {
+  background: #5284B0;
+  min-height: 55px;
+  border-radius: 0px !important;
+  margin-bottom: 0px;
+}
+
+.separador {
+  border-right: 1px dashed #FFFFFF;
+}
+#pie {
+  font-size: 25px;
+}
+
+a:hover{
+     font-weight: bold;
+     font-size: 20px;
+     color: black;
+}
+
+
+@media only screen and (max-width: 767px) {
+  body {
+    background-color: #5DADE2;
+  }
+}
